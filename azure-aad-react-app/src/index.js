@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { AzureAD } from 'react-aad-msal';
-import { authProvider } from '../src/auth/authProvider';
+// import { AzureAD } from 'react-aad-msal';
+// import { authProvider } from '../src/auth/authProvider';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <AzureAD provider={authProvider} forceLogin={true}>
-    <App />
-    </AzureAD>,
+  // <AzureAD provider={authProvider} forceLogin={true}>
+    <App />,
+    // </AzureAD>,
   document.getElementById('root')
 );
 
